@@ -181,9 +181,3 @@ def generate_text_report(masked_summary, output_path="output_summary.txt"):
         print(f"Error generating text report: {str(e)}")
         raise
 
-# Step 14: Generate the text report
-print("Step 14: Calling generate_text_report...")
-generate_text_report(
-    masked_summary,
-    output_path=r"D:\finance gpt\output_summary.txt"
-)
